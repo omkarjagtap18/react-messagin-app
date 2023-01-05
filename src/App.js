@@ -12,6 +12,7 @@ function App() {
   let updateInputMessage = (e) => {
     message = e.target.value;
     setMessage(message);
+    console.log("mm");
   };
 
   let addMessage = () => {
